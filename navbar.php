@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link href="styles/navbar.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container navbar navbar-fade">
+      <div class="row navbar-row">
+        <div class="col-27 navbar-logo-column">
+          <div class="container">
+            <div class="row">
+              <div class="navbar-col-logo-text navbar-swatch-combined">
+                Swatch
+              </div>
+              <div class="navbar-col-logo navbar-swatch-combined">
+                <img
+                  src="styles/Swatch-Symbol.png"
+                  alt="Logo"
+                  width="6%"
+                  height="75%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 navbar-watches navbar-col">
+          <span class="navbar-text">
+            <div class="dropdown">
+              <button class="dropbtn">Watches</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div class="col-8 navbar-gifts navbar-col">
+          <span class="navbar-text">Gifts</span>
+        </div>
+        <div class="col-8 navbar-moonswatch navbar-col">
+          <span class="navbar-text">Moonswatch</span>
+        </div>
+        <div class="col-85 navbar-scuby navbar-col">
+          <span class="navbar-text">Scuby Fifty Fathoms</span>
+        </div>
+        <div class="col-10 navbar-swatchpay navbar-col">
+          <span class="navbar-text">SwatchPay</span>
+        </div>
+        <div class="col-10s navbar-ourworld navbar-col">
+          <span class="navbar-text">Ourworld</span>
+        </div>
+        <div class="col-8 navbar-col navbar-empty"></div>
+        <div class="col-5">
+          <div class="container">
+            <div class="row">
+              <i
+                class="fa fa-shopping-cart navbar-shopping-icon"
+                aria-hidden="true"
+              ></i>
+              <i class="fa fa-user navbar-account-icon" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
